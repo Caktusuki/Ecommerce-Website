@@ -1,6 +1,6 @@
 # 🛍️ Hike - E-commerce Web App
 
-Hike is a full-stack e-commerce web application where users can browse products, add items to cart, and place orders. Admins can manage products and orders through a dedicated dashboard.
+Hike is a full-stack e-commerce web application where users can browse products, add items to cart, and place orders. Admins can manage products and orders through a dashboard.
 
 ---
 
@@ -21,6 +21,49 @@ Hike is a full-stack e-commerce web application where users can browse products,
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Home%20page%20with%20product%20listings.png)
+
+### 🔍 Search Suggestions
+![Search](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Search%20suggestions.png)
+
+### ⭐ Recommended Products
+![Recommended](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Recommended%20Products.png)
+
+### 👤 User Profile
+![User](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/User%20profile%20page.png)
+
+### 🛠️ Admin Dashboard
+![Admin Dashboard](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Admin%20dashboard.png)
+
+### 👨‍💼 Admin Profile
+![Admin Profile](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Admin%20profile%20page.png)
+
+### 📦 Product Management
+![Products](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Product%20management.png)
+
+### ➕ Add Product
+![Add Product](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Add%20new%20Product.png)
+
+### 📑 Order Management
+![Orders](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Order%20management.png)
+
+### 🛒 Checkout
+![Checkout](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Checkout.png)
+
+### 💳 Checkout & Payment
+![Payment](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Checkout%20and%20payment.png)
+
+### ✅ Order Confirmation
+![Order Confirmation](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Order%20confirmation.png)
+
+### 🎉 Order Confirmed
+![Order Done](https://raw.githubusercontent.com/Caktusuki/Ecommerce-Website/main/Screenshots/Order%20Confirmed.png)
+
+---
+
 ## 🧰 Tech Stack
 
 ### Frontend
@@ -30,80 +73,14 @@ Hike is a full-stack e-commerce web application where users can browse products,
 - Axios
 - React Query
 - Formik & Yup
-- Framer Motion
 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Mongoose)
+- MongoDB
 - JWT Authentication
-- Redis
 
 ---
 
-## 📂 Project Setup
-
-### 🔧 Backend Setup
-
-1. Navigate to backend folder:
-```bash
-cd backend
-Install dependencies:
-yarn
-Create a .env file and add:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_REFRESH_SECRET=your_refresh_secret
-Run backend server:
-yarn dev
-💻 Frontend Setup
-Navigate to frontend folder:
-cd frontend
-Install dependencies:
-yarn
-Run frontend:
-yarn start
-Open in browser:
-http://localhost:3000
-📦 Libraries Used
-Backend
-express
-mongoose
-jsonwebtoken
-bcrypt
-joi
-cors
-dotenv
-ioredis
-accesscontrol
-boom
-sucrase
-Frontend
-@chakra-ui/react
-antd
-axios
-formik
-yup
-react-query
-react-router-dom
-framer-motion
-moment
-🗄️ Database
-MongoDB Atlas
-📸 Screenshots
-Home page with product listings
-Search suggestions
-User profile page
-Admin dashboard
-Product management
-Order management
-Checkout and payment
-Order confirmation
-📘 Learn More
-React Docs: https://reactjs.org/
-Create React App Docs: https://facebook.github.io/create-react-app/docs/getting-started
-
-If you want next step, I can:
-- Add your screenshots properly inside README  
-- Add badges (cool GitHub look)  
-- Make it more “portfolio-level” 🔥
+## 🗄️ Database
+- MongoDB Atlas
