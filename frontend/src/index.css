@@ -1,0 +1,125 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-canvas: #eef2f6;
+  --bg-surface: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --accent-blue: #2563eb;
+  --shadow-soft: 0 10px 40px -10px rgba(0,0,0,0.08);
+  --radius-huge: 40px;
+  --radius-card: 24px;
+  --radius-pill: 9999px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--bg-canvas);
+  color: var(--text-main);
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+#root {
+  background: var(--bg-surface);
+  border-radius: var(--radius-huge);
+  box-shadow: var(--shadow-soft);
+  min-height: calc(100vh - 40px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar / Top Bar Styling */
+nav {
+  background: transparent !important;
+  border-bottom: none !important;
+  padding: 24px 40px !important;
+}
+
+nav a {
+  color: var(--text-muted) !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--text-main) !important;
+}
+
+/* Card Styling (Bento Box style) */
+.chakra-card, .chakra-box {
+  background: var(--bg-surface) !important;
+  border: 1px solid #f1f5f9 !important;
+  border-radius: var(--radius-card) !important;
+  box-shadow: var(--shadow-soft) !important;
+  color: var(--text-main) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.chakra-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1) !important;
+}
+
+/* Buttons */
+.chakra-button {
+  border-radius: var(--radius-pill) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Accent blue button for primary actions */
+.chakra-button[data-theme="whatsapp"], .chakra-button[data-theme="blue"] {
+  background: var(--accent-blue) !important;
+  color: white !important;
+}
+
+.chakra-button:hover {
+  transform: scale(1.02) !important;
+}
+
+/* Text overrides */
+.chakra-text, .chakra-heading, p, h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+}
+
+.chakra-text[color="blue.600"] {
+  color: var(--accent-blue) !important;
+  font-weight: 700 !important;
+  background: var(--accent-blue);
+  color: white !important;
+  padding: 4px 16px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+}
+
+/* Inputs and Tables */
+.chakra-input, .chakra-textarea, .chakra-select {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  color: var(--text-main) !important;
+}
+
+.chakra-input:focus {
+  border-color: var(--accent-blue) !important;
+  box-shadow: 0 0 0 1px var(--accent-blue) !important;
+}
+
+.ant-table, .ant-table-cell {
+  background: transparent !important;
+  color: var(--text-main) !important;
+}
+.ant-table-wrapper {
+  background: white !important;
+  border-radius: var(--radius-card) !important;
+  box-shadow: var(--shadow-soft) !important;
+}
+
