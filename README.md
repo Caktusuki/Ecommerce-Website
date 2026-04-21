@@ -1,73 +1,109 @@
-https://user-images.githubusercontent.com/84639970/226336865-730156f4-196f-4787-bb6b-2c5ecf09a123.mp4
+# 🛍️ Hike - E-commerce Web App
 
-# Run the Project
-
-### Backend
-
-- you have to enter the backend folder by typing `cd backend` in the terminal
-- In the project directory,Install libraries by typing `yarn`
-- Open a new file named .env
-
-```environment
-    MONGO_URI=mongodb+srv://user:passworrd@seyit.jwhpjae.mongodb.net/?retryWrites=true&w=majority
-    JWT_SECRET=sdgkMKEVlm3v23kl_n423vGG3b_TVnm234xnv23
-    JWT_REFRESH_SECRET=rerv1jv15v1CVBnasd23jnv1j3123nvrqwr23
-```
-
-- and type your mongodb URI
-- Then Run backend project with `yarn dev`
+Hike is a full-stack e-commerce web application where users can browse products, add items to cart, and place orders. Admins can manage products and orders through a dedicated dashboard.
 
 ---
+
+## 🚀 Features
+
+### 👤 User
+- Browse products
+- Search products
+- Add to cart
+- Checkout and place orders
+- View profile
+
+### 🛠️ Admin
+- Dashboard overview
+- Add new products
+- Edit and delete products
+- Manage orders
+
+---
+
+## 🧰 Tech Stack
 
 ### Frontend
+- React.js
+- Chakra UI
+- Ant Design
+- Axios
+- React Query
+- Formik & Yup
+- Framer Motion
 
-- you have to enter the frontend folder by typing `cd frontend` in the terminal
-- In the project directory,Install libraries by typing `yarn`
-- Then Run backend project with `yarn start`
-- You can reach the project from [localhost:3000](http://localhost:3000/)
-
----
-
-# Libraries
-
-### backend
-
-- accesscontrol
-- bcrypt
-- boom
-- cors
-- dotenv
-- express
-- ioredis
-- joi
-- jsonwebtoken
-- mongoose
-- sucrase
-
-### frontend
-
-- @chakra-ui/react
-- antd
-- axios
-- formik
-- framer-motion
-- moment
-- react-dom
-- react-image-gallery
-- react-query
-- react-router-dom
-- react-scripts
-- web-vitals
-- yup
-
-### database
-
-- MongoDB
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Redis
 
 ---
 
-## Learn More
+## 📂 Project Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔧 Backend Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Navigate to backend folder:
+```bash
+cd backend
+Install dependencies:
+yarn
+Create a .env file and add:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+JWT_REFRESH_SECRET=your_refresh_secret
+Run backend server:
+yarn dev
+💻 Frontend Setup
+Navigate to frontend folder:
+cd frontend
+Install dependencies:
+yarn
+Run frontend:
+yarn start
+Open in browser:
+http://localhost:3000
+📦 Libraries Used
+Backend
+express
+mongoose
+jsonwebtoken
+bcrypt
+joi
+cors
+dotenv
+ioredis
+accesscontrol
+boom
+sucrase
+Frontend
+@chakra-ui/react
+antd
+axios
+formik
+yup
+react-query
+react-router-dom
+framer-motion
+moment
+🗄️ Database
+MongoDB Atlas
+📸 Screenshots
+Home page with product listings
+Search suggestions
+User profile page
+Admin dashboard
+Product management
+Order management
+Checkout and payment
+Order confirmation
+📘 Learn More
+React Docs: https://reactjs.org/
+Create React App Docs: https://facebook.github.io/create-react-app/docs/getting-started
+
+If you want next step, I can:
+- Add your screenshots properly inside README  
+- Add badges (cool GitHub look)  
+- Make it more “portfolio-level” 🔥
