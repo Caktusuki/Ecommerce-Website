@@ -31,4 +31,8 @@ app.use((err, req, res, next) => {
   }
 });
 
-app.listen(4000, () => console.log('Server is up!'));
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(4000, () => console.log('Server is up!'));
+}
+
+export default app;
